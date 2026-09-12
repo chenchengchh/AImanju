@@ -287,10 +287,14 @@ cd console && python start_daemons.py   :: 后台常驻（已做 Windows 兼容�
 
 提示词工程方法论参考 Higgsfield 开源长片《Hell Grind》的结构化生产经验（角色资产化 / 七层提示词 / 镜头契约 / 失败诊断）。
 
+## 联系作者
+
+如有项目使用、二次开发、技术交流等需求，欢迎联系：
+
+- **邮箱**：[chenchengchh@126.com](mailto:chenchengchh@126.com)
+
 ## ☕ 打赏
 
 如果这个项目帮到了你，欢迎请作者喝杯咖啡（自愿，感谢支持）。
 
-<!-- 收款码图片放到 docs/donate.jpg 后取消下行注释即可显示
 ![微信打赏码](docs/donate.jpg)
--->
