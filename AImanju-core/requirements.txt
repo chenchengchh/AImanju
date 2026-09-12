@@ -1,0 +1,27 @@
+# ============================================================
+# AI漫剧H3生成工具 · 核心版 依赖清单
+# 控制台（console/）零第三方依赖 —— 全部使用 Python 标准库
+# 以下仅为 workflows/ 辅助脚本与工具脚本的依赖
+# ============================================================
+
+# 图像处理：字幕层/CTA 引导层渲染
+#   使用者：workflows/make_subtitles.py、workflows/make_cta_layer.py
+Pillow>=10.0
+
+# ------------------------------------------------------------
+# 非 pip 依赖（必须单独安装）：
+#
+# 1. ffmpeg（视频合成/转码/抽帧，必须加入 PATH）
+#    使用者：workflows/assemble.py（一键合成）、链式衔接抽末帧
+#    安装：
+#      Windows : winget install ffmpeg
+#      macOS   : brew install ffmpeg
+#      Linux   : sudo apt install -y ffmpeg
+#
+# 2. ComfyUI（本机或远程，承载 H3 视频生成与 Z-Image 生图）
+#    安装与模型清单见 docs/MODELS.md
+#
+# 3. 语言模型服务（二选一即可）：
+#    - 本地：LM Studio / Ollama（OpenAI 兼容接口）
+#    - 云端：任意 OpenAI 兼容 API（DeepSeek / 通义 / OpenAI 等）
+# ------------------------------------------------------------
